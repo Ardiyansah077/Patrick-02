@@ -83,7 +83,7 @@ async function starts() {
 	client.logger.level = 'warn'
 	console.log(banner.string)
 	client.on('qr', () => {
-		console.log(color('[','red'), color('!','yellow'), color(']','red'), color(' Scan Tu Ngab Jangan lupa Subscribe ArdiGans YT, 'green'))
+		console.log(color('[','red'), color('!','yellow'), color(']','red'), color(' Scan Tu Ngab, 'green'))
 	})
 
 	fs.existsSync('./Patrick.json') && client.loadAuthInfo('./Patrick.json')
